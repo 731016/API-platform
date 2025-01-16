@@ -1,15 +1,3 @@
-<p align="center">
-    <img src="./assets/logo.png" width=160/>
-</p>
-<h1 align="center">API 接口服务平台</h1>
-<p align="center">
-    <strong>🫧API 接口服务平台是一个为用户和开发者提供全面 API 接口调用服务的平台</strong>
-</p>
-<div align="center">
-	<img alt="Maven" src="https://raster.shields.io/badge/Maven-3.8.1-red.svg"/>
-    <img alt="" src="https://img.shields.io/badge/JDK-1.8+-green.svg"/>
-    <img alt="SpringBoot" src="https://img.shields.io/badge/SpringBoot-2.6.13-green"/>
-</div>
 
 ## 项目介绍 🔝️
 
@@ -46,6 +34,14 @@
 
 ![QiAPI 接口开放平台](https://img.qimuu.icu/typory/QiAPI%2520%25E6%258E%25A5%25E5%258F%25A3%25E5%25BC%2580%25E6%2594%25BE%25E5%25B9%25B3%25E5%258F%25B0.png)
 
+## 
+
+## ✨
+
+## 欢迎使用API接口平台
+
+
+
 ## 快速启动 🚀
 
 ### 前端
@@ -74,80 +70,38 @@ yarn build or npm run build
 
 执行 sql 目录下 api_platform.sql
 
-## 技术选型 🎯
 
-### 前端
 
-- React 18
-- Ant Design Pro 5.x 脚手架
-- Ant Design & Procomponents 组件库
-- Umi 4 前端框架
-- OpenAPI 前端代码生成
+## 项目介绍
+
+提供API接口供开发者调用的平台，基于springBoot + react的全栈微服务项目
+
+管理员可接入并发布接口、统计分析接口调用情况
+
+用户可注册并开通接口调用权限、浏览、在线调试，还可使用SDK在代码中调用接口。
+
+
+
+## 功能展示 
+
+![image-20250116184120466](https://note-1259190304.cos.ap-chengdu.myqcloud.com/noteimage-20250116184120466.png)
+
+
+
+![image-20250116184052027](https://note-1259190304.cos.ap-chengdu.myqcloud.com/noteimage-20250116184052027.png)
+
+![image-20250116184159460](https://note-1259190304.cos.ap-chengdu.myqcloud.com/noteimage-20250116184159460.png)
+
+## 技术选型
 
 ### 后端
 
-- Spring Boot 2.6.13
-- Spring Cloud 2021.0.5
-- Spring Cloud Alibaba  2021.0.5.0
-- Spring Cloud Gateway 微服务网关
-- Dubbo RPC 3.0.15
-- MySQL 8.0.31
-- 腾讯云 COS 存储
-- IJPay-AliPay  支付宝支付
-- Swagger + Knife4j 接口文档
-- Jakarta.Mail 邮箱通知
-- Spring Session Redis 分布式登录
-- MyBatis-Plus 及 MyBatis X 自动生成
-- Hutool、Apache Common Utils、Gson 等工具库
-
-## 功能介绍 📋
-
-💰**积分**：用于平台接口调用。
-
-| 功能                                                         | <span style="display:inline-block;width: 80px"> 游客 </span> | <span style="display:inline-block;width: 80px">普通用户</span> | <span style="display:inline-block;width: 80px">管理员</span> |
-| :----------------------------------------------------------- | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
-| 访问 **[API 开发者文档](todo)**              |                              ✅                               |                              ✅                               |                              ✅                               |
-| 接口广场：搜索/浏览接口                                      |                              ✅                               |                              ✅                               |                              ✅                               |
-| 平台账号：登录/注册                                     |                              ✅                               |                              ✅                               |                              ✅                               |
-| 接口在线调试                                                 |                              ❌                               |                              ✅                               |                              ✅                               |
-| 使用 [**API-sdk**](https://github.com/731016/api-platform-sdk) 开发工具包 |                              ❌                               |                              ✅                               |                              ✅                               |
-| 更新开发者凭证                                               |                              ❌                               |                              ✅                               |                              ✅                               |
-| 接口管理：接口发布/审核/修改/下线等                          |                              ❌                               |                              ❌                               |                              ✅                               |
-| 用户管理：用户封号/解封/修改等                               |                              ❌                               |                              ❌                               |                              ✅                               |
-
-## 功能展示 ✨
-
-### 登录
-
-![login](./assets/登录.jpg)
-
-### 注册
-
-![register](./assets/注册.jpg)
-
-### 首页
-
-![index](./assets/index.jpg)
-
-### 接口广场
-
-![interface-square](./assets/接口广场.jpg)
-
-### 接口描述
-
-![interface-info](./assets/接口描述.jpg)
-
-### 在线调试
-
-![interface-test](./assets/在线调试.jpg)
-
-![interface-test](./assets/调用结果.jpg)
-
-### 个人中心
-
-![user-center](./assets/个人中心.jpg)
-
-
-### 主题切换
-
-![topic-switching](./assets/主题切换.jpg)
++ springBoot
++ mysql
++ mybatis-Plus
++ API签名认证（http）
++ spring boot starter（SDK开发）
++ Dubbo分布式（RPC,nacos）
++ spring cloud gateway微服务网关
++ swagger + knife4j接口文档
++ Hutool、Apahce common utils、Gson等工具库
